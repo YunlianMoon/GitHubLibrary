@@ -168,11 +168,13 @@ example:
 
 ## Textbox
 注意文本框前必须要有空行!  
-### 单行文本框
+  
+单行文本框  
 语法: 在文字前面输入4个空格或者按两个Tab键;  
 
     这是一个单行的文本框,只要两个Tab再输入文字即可. We can never know what to want, because, living only one life, we can neither compare it with our previous lives nor perfect it in our lives to come.  
-### 多行文本框
+  
+多行文本框  
 语法: 每行文字前面都要有4个空格, 每行结尾处用两个空格换行.  
 
     这是一个有多行的文本框  
