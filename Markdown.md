@@ -102,11 +102,16 @@ example:
 第三种方式是使用三个反引号\`\`\`(非标准Markdown语法), 三个反引号后面加入引用代码的语言类型;  
 语法:  
 \`\`\` language  
+code  
+\`\`\`  
+example: language为c++  
+语法:  
+\`\`\` c++  
 int a = 1;  
 int b = 2;  
 int c = a+b;  
 \`\`\`  
-example: language为c++  
+效果:  
 ``` c++
 int a = 1;
 int b = 2;
