@@ -127,14 +127,27 @@ int c = a+b;
 
 ## Table
 同时按住shift和\键可调出表格中的|;  
+用:表示对齐方式, -(默认左对齐), :-(左对齐), -:(右对齐), :-:(居中);  
+-表示列的宽度权重;  
+注意表格前后必须有空行!  
 example:  
-| Name | Academy | score | 
-| - | :-: | -: | 
-| Harry Potter | Gryffindor| 90 | 
-| Hermione Granger | Gryffindor | 100 | 
-| Draco Malfoy | Slytherin | 90 |
+语法:  
+'|id|name|  
+|:-|:-:|  
+|1|A1|  
+|2|A2|  
+|3|A3|'  
+效果:  
+
+|id|name|
+|:-|:-:|
+|1|A1|
+|2|A2|
+|3|A3|
+
 
 ## Textbox
+    这是一个单行的文本框,只要两个Tab再输入文字即可.
 
 ## Expression
 非标准的Markdown语法;  
