@@ -131,6 +131,6 @@ int c = a+b;
 ## Expression
 非标准的Markdown语法;  
 example:  
-语法: `表情一：:+1:,表情二：:o:`  
-效果: 表情一：:+1:,表情二：:o:  
+语法: `表情一：:+1:, 表情二：:o:`  
+效果: 表情一：:+1:, 表情二：:o:  
 you can find all expressions at [表情大全](https://www.webpagefx.com/tools/emoji-cheat-sheet/). if the web page is slow, you can visit [here](https://github.com/YunlianMoon/GitHubLibrary/blob/master/MarkdownExpression.md).  
