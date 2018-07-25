@@ -55,11 +55,13 @@ example:
 斜体: \*文字\* 或 \_文字\_;  
 粗体: \*\*文字\*\* 或 \_\_文字\_\_;  
 粗斜体: \*\*\*文字\*\*\* 或 \_\_\_文字\_\_\_;  
-注意\*和\_与文字要紧挨着.  
+删除线: \~\~文字\~\~;
+注意\*,\_,\~与文字要紧挨着.  
 example:  
 *斜体* 或者 _斜体_  
 **粗体** 或者 __粗体__  
 ***粗斜体*** 或者 ___粗斜体___  
+~~删除线~~  
 
 ## ListTag
 内容需要进行标记，可以使用下面的方式:  
@@ -68,7 +70,14 @@ unordered list are created using * + space or using - + space.
 example:  
 - unordered list item
 - unordered list item
-- unordered list item
+- unordered list item  
+  
+任务列表(非标准Markdown语法):  
+\[x]或\[ ]前面加-和空格,\[x]会在方框中画个√;  
+example:  
+- [x] 任务列表1
+- [ ] 任务列表2
+- [ ] 任务列表3  
 
 ## SplitLine
 想用分割线对内容进行分割,可以在单独一行里输入3个或以上的短横线(-)、星号(\*)或者下划线(\_)实现.短横线和星号之间可以输入任意空格.以下每一行都产生一条水平分割线.  
@@ -77,13 +86,28 @@ example:
 ___
 
 ## Code
-在文章中添加代码,有两种方式.  
-第一种方式是使用反引号\`(Esc键下面的按钮)将代码包裹起来;  
+在文章中添加代码,有三种方式.  
+第一种方式是使用反引号\`(Esc键下面的按钮)将代码包裹起来;
+语法: \`code\`;  
 example:  
 `this is a code by backtick`  
-第二种方式则是使用制表符或者至少4个空格进行缩进的行.  
+第二种方式则是使用制表符或者至少4个空格进行缩进的行;
+example:  
     Indent each line by at least 1 tab, or 4 spaces.  
     var github = exactlyTheWebIWant;  
+第三种方式是使用三个反引号\`\`\`(非标准Markdown语法),三个反引号后面加入引用代码的语言类型;  
+语法:  
+\`\`\` language  
+int a = 1;  
+int b = 2;  
+int c = a+b;  
+\`\`\`  
+example: language为c++  
+``` c++
+int a = 1;
+int b = 2;
+int c = a+b;
+```
 
 ## Quote
 在文章中引用了资料,可以通过一个右尖括号">"来表示这是一段引用内容.可以在开头加一个,也可以在每一行的前面都加一个.还可以在引用里面嵌套其他的引用,如二级引用加两个右尖括号">>",以此类推.  
@@ -94,3 +118,10 @@ example:
 
 
 ## Textbox
+
+## Expression
+非标准的Markdown语法;  
+example:  
+表情一：:+1:,表情二：:o:  
+[表情大全](https://www.webpagefx.com/tools/emoji-cheat-sheet/)  
+
