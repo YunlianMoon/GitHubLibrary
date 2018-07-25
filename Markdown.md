@@ -53,19 +53,25 @@ example:
 语法: `![a-little-cat](https://github.com/YunlianMoon/GitHubLibrary/blob/master/Images/Markdown-Img/A-little-cat.jpg "A Little Cat")`  
 ![a-little-cat](https://github.com/YunlianMoon/GitHubLibrary/blob/master/Images/Markdown-Img/A-little-cat.jpg "A Little Cat")  
 
-点击某个图片进入一个网页:  
+点击图片进入某个网页  
 example: 点击github的icorn然后再进入`www.github.com`  
 语法:  
 `[![image]](http://www.github.com/)`  
 `[image]: http://github.com/github.png "github"`  
 效果:  
-[![image]](http://www.github.com/)   
-[image]: http://github.com/github.png "github"
+[![github-icon](https://avatars1.githubusercontent.com/u/9919?v=4)](http://www.github.com/)  
   
-指定图片的高和宽:  
-使用普通的<img>标签, 利用它的width和height属性来定制宽高.  
+指定图片宽高  
+ Markdown没有指定图片的宽高的语法, 可以使用普通的<img>标签, 利用它的width和height属性来定制宽高.  
 example:  
-语法: <img src="http://imgtech.gmw.cn/attachement/jpg/site2/20111223/f04da22d7ba7105e1d7507.jpg" width = "300" height = "120" alt="CSDN图标" />
+语法:  
+`<img src="https://github.com/YunlianMoon/GitHubLibrary/blob/master/Images/Markdown-Img/A-little-cat.jpg" width="150" height="100" />`  
+效果:  
+<img src="https://github.com/YunlianMoon/GitHubLibrary/blob/master/Images/Markdown-Img/A-little-cat.jpg" width="150" height="100" />  
+
+指定图片对齐方式
+
+
 
 
 ## Emphasize
