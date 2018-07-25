@@ -96,7 +96,7 @@ ___
 语法: \`code\`;  
 example:  
 语法: \`this is a code by backtick\`  
-效果: `this is a code by backtick`
+效果: `this is a code by backtick`  
 第二种方式则是使用制表符或者至少4个空格进行缩进的行;
 example:  
     Indent each line by at least 1 tab, or 4 spaces.  
