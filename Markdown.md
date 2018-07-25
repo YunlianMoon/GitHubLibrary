@@ -56,8 +56,7 @@ example:
 点击图片进入某个网页  
 example: 点击github的icorn然后再进入`www.github.com`  
 语法:  
-`[![image]](http://www.github.com/)`  
-`[image]: http://github.com/github.png "github"`  
+`[![github-icon](https://avatars1.githubusercontent.com/u/9919?v=4)](http://www.github.com/)`  
 效果:  
 [![github-icon](https://avatars1.githubusercontent.com/u/9919?v=4)](http://www.github.com/)  
   
