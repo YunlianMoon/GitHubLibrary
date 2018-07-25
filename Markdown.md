@@ -73,7 +73,7 @@ example:
 - unordered list item  
   
 任务列表(非标准Markdown语法):  
-\[x]或\[ ]前面加-和空格,\[x]会在方框中画个√;  
+\- + space + \[x] 或 \- + space +\[ ],\[x]会在方框中画个√;  
 example:  
 - [x] 任务列表1
 - [ ] 任务列表2
