@@ -126,7 +126,13 @@ int c = a+b;
 >> this is the second quote.  
 
 ## Table
-
+同时按住shift和\键可调出表格中的|;  
+example:  
+| Name | Academy | score | 
+| - | :-: | -: | 
+| Harry Potter | Gryffindor| 90 | 
+| Hermione Granger | Gryffindor | 100 | 
+| Draco Malfoy | Slytherin | 90 |
 
 ## Textbox
 
