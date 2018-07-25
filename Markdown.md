@@ -48,7 +48,7 @@ baidu: <https://www.baidu.com/>
 注意!,\[]和()要紧挨着.  
 建议的做法是将readme.md里面要展示的图片放到仓库里面,再调用图片链接,当然直接调用网络上已经有的图片地址也是没有问题的.  
 example:  
-![a-little-cat](https://github.com/YunlianMoon/Markdown/blob/master/Images/little-cat.jpg)   
+![a-little-cat](https://github.com/YunlianMoon/GitHubLibrary/blob/master/Images/A-little-cat.jpg)  
 
 ## Emphasize
 可以使用下面的方式给文本添加强调的效果:  
