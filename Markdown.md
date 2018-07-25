@@ -42,24 +42,30 @@ example:
 效果: baidu: <https://www.baidu.com/>
 
 ## Picture
-语法:  !\[Alt text](/path/to/img.jpg)  
+语法:  !\[Alt text](/path/to/img.jpg) 或 !\[Alt text](/path/to/img.jpg "optional title")  
 一个惊叹号!  
 接着一个方括号, 里面放上图片的替代文字;  
 接着一个普通括号, 里面放上图片的网址.  
 注意!, \[]和()要紧挨着.  
 建议的做法是将readme.md里面要展示的图片放到仓库里面, 再调用图片链接, 当然直接调用网络上已经有的图片地址也是没有问题的.  
+双引号表示鼠标移到该图片将显示的文字.  
 example:  
-语法: `![a-little-cat](https://github.com/YunlianMoon/GitHubLibrary/blob/master/Images/Markdown-Img/A-little-cat.jpg)`  
-![a-little-cat](https://github.com/YunlianMoon/GitHubLibrary/blob/master/Images/Markdown-Img/A-little-cat.jpg)   
+语法: `![a-little-cat](https://github.com/YunlianMoon/GitHubLibrary/blob/master/Images/Markdown-Img/A-little-cat.jpg "A Little Cat")`  
+![a-little-cat](https://github.com/YunlianMoon/GitHubLibrary/blob/master/Images/Markdown-Img/A-little-cat.jpg "A Little Cat")  
 
 点击某个图片进入一个网页:  
 example: 点击github的icorn然后再进入`www.github.com`  
 语法:  
->\[!\[image]](`http://www.github.com/`)  
->\[image]: `http://github.com/github.png` "github"  
+`[![image]](http://www.github.com/)`  
+`[image]: http://github.com/github.png "github"`  
 效果:  
 [![image]](http://www.github.com/)   
 [image]: http://github.com/github.png "github"
+  
+指定图片的高和宽:  
+使用普通的<img>标签, 利用它的width和height属性来定制宽高.  
+example:  
+语法: <img src="http://imgtech.gmw.cn/attachement/jpg/site2/20111223/f04da22d7ba7105e1d7507.jpg" width = "300" height = "120" alt="CSDN图标" />
 
 
 ## Emphasize
