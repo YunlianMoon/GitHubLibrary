@@ -52,6 +52,16 @@ example:
 语法: `![a-little-cat](https://github.com/YunlianMoon/GitHubLibrary/blob/master/Images/Markdown-Img/A-little-cat.jpg)`  
 ![a-little-cat](https://github.com/YunlianMoon/GitHubLibrary/blob/master/Images/Markdown-Img/A-little-cat.jpg)   
 
+点击某个图片进入一个网页:  
+example: 点击github的icorn然后再进入`www.github.com`  
+语法:  
+>\[!\[image]](http://www.github.com/)  
+>\[image]: http://github.com/github.png "github"
+效果:  
+[![image]](http://www.github.com/)   
+[image]: http://github.com/github.png "github"
+
+
 ## Emphasize
 可以使用下面的方式给文本添加强调的效果:  
 斜体: \*文字\* 或 \_文字\_;  
@@ -129,30 +139,35 @@ int c = a+b;
 同时按住shift和\键可调出表格中的|;  
 用:表示对齐方式, -(默认左对齐), :-(左对齐), -:(右对齐), :-:(居中);  
 -表示列的宽度权重;  
-注意表格前后必须有空行!  
+注意表格前必须有空行! 两|之间可以有空格.  
 example:  
 语法:  
-'|id|name|  
-|:-|:-:|  
-|1|A1|  
-|2|A2|  
-|3|A3|'  
+'|Item|Price|Number|  
+|--------|-----:|:----:|  
+|computer|\$1600|5|  
+|cellphone|\$12|12|  
+|pen|\$1|234|'  
 效果:  
 
-|id|name|
-|:-|:-:|
-|1|A1|
-|2|A2|
-|3|A3|
-
+|Item|Price|Number|  
+|--------|-----:|:----:|  
+|computer|\$1600|5|  
+|cellphone|\$12|12|  
+|pen|\$1|234|
 
 ## Textbox
-注意文本框前后必须要有空格!  
+注意文本框前必须要有空行!  
 ### 单行文本框
-
 语法: 在文字前面输入4个空格或者按两个Tab键;  
 
-    这是一个单行的文本框,只要两个Tab再输入文字即可.
+    这是一个单行的文本框,只要两个Tab再输入文字即可. We can never know what to want, because, living only one life, we can neither compare it with our previous lives nor perfect it in our lives to come.  
+### 多行文本框
+语法: 每行文字前面都要有4个空格, 每行结尾处用两个空格换行.  
+
+    这是一个有多行的文本框  
+    你可以写入代码等,每行文字只要输入两个Tab再输入文字即可  
+    Life sometimes seems too hard and difficult to understand but no matter what obstacles are standing in your way right now you have the power to overcome them. Sometimes your strength lies in stubbornness and determination but even more often it is hidden in your ability to go around obstacles and learn from the previous mistakes. Be strong as a fire that crushes everything in its way and like water that finds a way around any obstacle with gentle determination and a peaceful flow.  
+
 ## Expression
 非标准的Markdown语法;  
 example:  
