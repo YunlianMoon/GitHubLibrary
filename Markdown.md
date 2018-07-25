@@ -55,8 +55,8 @@ example:
 点击某个图片进入一个网页:  
 example: 点击github的icorn然后再进入`www.github.com`  
 语法:  
->\[!\[image]](http://www.github.com/)  
->\[image]: http://github.com/github.png "github"
+>\[!\[image]](`http://www.github.com/`)  
+>\[image]: `http://github.com/github.png` "github"  
 效果:  
 [![image]](http://www.github.com/)   
 [image]: http://github.com/github.png "github"
