@@ -18,6 +18,7 @@ example:
 
 ## Newline
 在需要换行的地方输入至少两个空格, 然后回车即可. 
+还可以直接用html标签\<br /\><br />
 
 ### Backslash
 可以利用反斜杠来插入一些在语法中有其它意义的符号.  
@@ -61,17 +62,25 @@ example: 点击github的icorn然后再进入`www.github.com`
 [![github-icon](https://avatars1.githubusercontent.com/u/9919?v=4)](http://www.github.com/)  
   
 指定图片宽高  
- Markdown没有指定图片的宽高的语法, 可以使用普通的<img>标签, 利用它的width和height属性来定制宽高.  
+Markdown没有指定图片的宽高的语法, 可以使用普通的<img>标签, 利用它的width和height属性来定制宽高.  
 example:  
 语法:  
 `<img src="https://github.com/YunlianMoon/GitHubLibrary/blob/master/Images/Markdown-Img/A-little-cat.jpg" width="150" height="100" />`  
 效果:  
 <img src="https://github.com/YunlianMoon/GitHubLibrary/blob/master/Images/Markdown-Img/A-little-cat.jpg" width="150" height="100" />  
-
-指定图片对齐方式
-
-
-
+  
+指定图片对齐方式  
+example:  
+语法:  
+`<p align="center">`  
+`<img src="https://github.com/YunlianMoon/GitHubLibrary/blob/master/Images/Markdown-Img/A-little-cat.jpg" width="150" height="100" />`  
+`<img src="https://github.com/YunlianMoon/GitHubLibrary/blob/master/Images/Markdown-Img/A-little-cat.jpg" width="150" height="100" />`  
+`</p>`  
+效果:  
+<p align="center">
+<img src="https://github.com/YunlianMoon/GitHubLibrary/blob/master/Images/Markdown-Img/A-little-cat.jpg" width="150" height="100" />
+<img src="https://github.com/YunlianMoon/GitHubLibrary/blob/master/Images/Markdown-Img/A-little-cat.jpg" width="150" height="100" />
+</p>
 
 ## Emphasize
 可以使用下面的方式给文本添加强调的效果:  
