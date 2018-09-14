@@ -1,1 +1,1 @@
-Store some images used in GitHub
+Store some images used in GitHubLibrary.
