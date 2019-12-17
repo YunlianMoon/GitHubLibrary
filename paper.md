@@ -7,3 +7,7 @@
 [China Computer Federation](https://www.ccf.org.cn/xspj/gyml/)
 
 [JCR](http://www.letpub.com.cn/index.php?page=journalapp#opennewwindow)
+
+### Jornal homepage
+
+[]()
