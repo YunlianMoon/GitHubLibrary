@@ -10,4 +10,4 @@
 
 ### Jornal homepage
 
-[]()
+[IEEE Transactions on Image Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83)
